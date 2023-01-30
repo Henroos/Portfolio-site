@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700;800&display=swap')
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: white ;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+
+.wrapper {
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://img.freepik.com/free-photo/group-asia-young-creative-people-smart-casual-wear-discussing-business-brainstorming_7861-3066.jpg?w=826&t=st=1671302281~exp=1671302881~hmac=b13d8fcc78548d09e53c482f381e946d2702b798c34c7f9f918c993d77e733f6");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.testimonial {
+	padding-top: 2%;
+	padding-left: 42%;
+}
+
+article h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	word-spacing: 2.8px;
+	color: skyblue;
+	text-decoration: underline;
+}
+
+article h1: after{
+	content: "";
+	height: 5px;
+	width: 225px;
+	color: skyblue;
+	display: block;
+	margin: auto;
+}
+
+article img{
+	height: 200px;
+	width: 200px;
+	border: 2px solid skyblue;
+	border-radius:50%;
+
+}
+
+
+
+blockquote {
+font-size: 18px;
+margin-top: 20px;
+color: skyblue;
+line-height: 3;
+	
+}
+
+.list {
+	line-height: 1.5;
+	font-size: 18px;
+	color: rgb(222, 33, 97);
+}
+
+
+
+
+.writeup {
+	text-align: center;
+	color: white;
+	line-height: normal;
+}
+

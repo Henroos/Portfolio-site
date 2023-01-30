@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+.section-type {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	background-image: url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1671435633~exp=1671436233~hmac=07e72d716e0035cba0d70b480a0fdf9387ddef22767b5c4f1b24f90aac4d1f58");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	animation: change 30s infinite ease-in-out;
+}
+
+.content h1{
+	color: white;
+	font-size: 40px;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+}
+
+.content {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.content a{
+	background: skyblue;
+	color: white;
+	padding:10px 24px;
+	text-decoration: none;
+	font-size: 25px;
+	border-radius: 20px;
+}
+
+.content a:hover {
+	background: deepskyblue;
+	color: white;
+}
+
+@keyframes change{
+	0%{
+		background-image: url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1671435633~exp=1671436233~hmac=07e72d716e0035cba0d70b480a0fdf9387ddef22767b5c4f1b24f90aac4d1f58");
+	}
+
+	20%{
+		background-image: url("https://img.freepik.com/free-photo/pathway-middle-forest-with-big-green-leafed-trees_181624-4332.jpg?w=740&t=st=1671435777~exp=1671436377~hmac=08b991f841fc5dfca1ee97c03da7033862c59741442a55e8fb7c942915982e3b");
+	}
+
+	40%{
+		background-image: url("https://img.freepik.com/free-photo/beautiful-shot-grassy-hills-covered-trees-near-mountains-dolomites-italy_181624-24400.jpg?w=740&t=st=1671435801~exp=1671436401~hmac=6ae309031e48977ec196cc5e7ec87f6ee2dc15362b43366c3e0cce889d0b0a8e");
+	}
+
+	60%{
+		background-image: url("https://img.freepik.com/free-photo/beautiful-aerial-shot-fronalpstock-mountains-switzerland-beautiful-pink-blue-sky_181624-9315.jpg?w=740&t=st=1671435847~exp=1671436447~hmac=94eb959649e4be9840fe5b149c964a3a20d80bbe77380edf250071050c7c744a");
+	}
+
+	80%{
+		background-image: url("https://img.freepik.com/free-photo/pathway-middle-forest-with-big-green-leafed-trees_181624-4332.jpg?w=740&t=st=1671435777~exp=1671436377~hmac=08b991f841fc5dfca1ee97c03da7033862c59741442a55e8fb7c942915982e3b");
+	}
+
+	100%{
+		background-image: url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1671435633~exp=1671436233~hmac=07e72d716e0035cba0d70b480a0fdf9387ddef22767b5c4f1b24f90aac4d1f58");
+	}
+
+}
+
